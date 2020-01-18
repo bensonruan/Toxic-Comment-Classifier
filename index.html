@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Toxic Comment Classifier</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/toxic-classifier.css">
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/toxicity"></script>    
+  </head>  
+  <body>
+        <main id="toxicity-classifier">
+
+            <h1>TensorFlow.js toxicity classifier demo</h1>
+            <div class="description">This is a demo of the TensorFlow.js toxicity model, which classifies text according to whether it exhibits offensive attributes (i.e. profanity, sexual explicitness). </div>
+            <div id="table-wrapper">
+            </div>
+            <p>Enter text below and click 'Classify' to add it to the table.</p>
+            <div>
+                <input id="classify-new-text-input" placeholder="i.e. 'you suck'">
+                <button id="btn-classify" class="btn btn-primary">Classify</button>
+            </div>
+                      
+        </main>
+
+    <script src="js/toxic-classifier.js"></script>
+  </body>
+</html>
