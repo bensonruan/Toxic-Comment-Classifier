@@ -4,6 +4,7 @@
 ## Live Demo
 **[https://bensonruan.com/toxic-comment-detection-with-tensorflow-js/](https://bensonruan.com/toxic-comment-detection-with-tensorflow-js/)**
 
+![toxic-comment-detection](https://bensonruan.com/wp-content/uploads/2020/01/toxic-comment-detection.gif)
  
 ## Installing
 Clone this repository to your local computer
